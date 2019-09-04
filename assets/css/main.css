@@ -2073,7 +2073,7 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
+				/* background: url("images/overlay.png"), url("images/overlay.png"); */
 				opacity: 1.0;
 			}
 
@@ -2607,13 +2607,13 @@ input, select, textarea {
 			justify-content: space-between;
 			background-color: #1f1815;
 			background-attachment: scroll,								scroll;
-			background-image: url("https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1403&q=80"), url("../../images/bg.jpg");
+			background-image: url("/Users/jason/Desktop/Lambda/portfolio-website/images/mediaq.png"), url("../../images/bg.jpg");
 			background-position: top left,							top left;
 			background-repeat: repeat,								no-repeat;
 			background-size: contain,								150%;
 			color: rgba(255, 255, 255, 0.5);
 			height: 0%;
-			width: 0%
+			width: 0%;
 			left: 0;
 			padding: 8em 4em;
 			position: fixed;
@@ -2666,11 +2666,11 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer .icons {
-		margin: 1em 0 0 0;
+.icons {
+		margin: 22em 0 0 0;
 	}
 
-		#footer .icons a {
+		.icons a {
 			color: rgb(255, 255, 255);
 		}
 
@@ -2705,7 +2705,7 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 4em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
@@ -3231,4 +3231,8 @@ input, select, textarea {
 
 	.twoParagraph{
 		padding-top: 15px;
+	}
+
+	.test{
+		max-width: 100%;;
 	}
